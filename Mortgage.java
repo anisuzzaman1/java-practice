@@ -13,7 +13,8 @@ public class Mortgage {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Principle: ");
-        double principal = input.nextDouble();
+        int principal = input.nextInt();
+
 
         System.out.print("Annual Interest Rate: ");
         float annualInterestRate = input.nextFloat();
