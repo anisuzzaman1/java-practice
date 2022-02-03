@@ -34,4 +34,8 @@ public class InStack {
     public boolean isFull() {
         return (top == stack.length - 1);
     }
+
+    public boolean isEmpty() {
+        return (top == -1);
+    }
 }
